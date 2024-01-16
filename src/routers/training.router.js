@@ -7,4 +7,4 @@ trainingRouter.post(
     createTraining
 );
 trainingRouter.get("/", getTrainings);
-trainingRouter.get("/:id", delTraining);
+trainingRouter.delete("/:id", delTraining);
